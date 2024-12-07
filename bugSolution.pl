@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);if ($#array >= 3) {    my $element = $array[3];    # Process $element} else {    print "Error: Array index out of bounds\n"; # Handle the error} 
